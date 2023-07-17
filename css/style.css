@@ -7,26 +7,32 @@
 
 - Font weights:
 Default: 400
+Medium: 500
+Semi-bold:: 600
+Bold: 700
 
 - Line heights:
 Default: 1
-1.05
-1.6
+Small: 1.05
+Paragraph defaults: 1.6
 
 
 --- 02 COLORS
 
 - Primary: #e67e22
-- Tints:
-- Shades:
+- Tints: #fdf2e9
+- Shades: #cf711f
 - Accents:
 - Greys:
 #555
+#333
 
 --- 05 SHADOWS
 
 
 --- 06 BORDER-RADIUS
+
+Default: 9px
 
 --- 07 WHITESPACE
 
@@ -223,4 +229,26 @@ header {
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/* *********************** */
+/* HOW IT WORKS SECTION */
+
+/* *********************** */
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
+}
+
+.section-how:nth-child(1) {
+  background-color: aqua;
+}
+.section-how:nth-child(2) {
+  background-color: blue;
+}
+.section-how:nth-child(3) {
+  background-color: aqua;
+}
+.section-how:nth-child(4) {
+  background-color: aqua;
 }
